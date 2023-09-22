@@ -32,3 +32,12 @@ Login to admin and view the models
 
 py manage.py collectstatic
 Add static/ to .gitignore
+
+project / urls.py > include(app.urls)
+create app/urls.py
+Write the views - first just Generic List and Detail Views
+Create respective templates just to display the relevant fields
+Extend from a base template, don't forget to insert the {% block blockname %} in the parent template
+
+To test it, create some dummy users and posts
+Install django-debug-toolbar - follow the steps at https://django-debug-toolbar.readthedocs.io/en/latest/installation.html - they're straightforward

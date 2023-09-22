@@ -12,6 +12,8 @@
 
 - Tags
 
-## Misc
+## Misc / Things to try
 
 - link other social media links to user profiles
+- from django.views.generic import DateDetailView, FormView, RedirectView, TemplateView
+- from django.views.generic import WeekArchiveView, MonthArchiveView, YearArchiveView, TodayArchiveView, ArchiveIndexView
